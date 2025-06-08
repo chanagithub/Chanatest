@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "pubspec.yaml",
+      "use": "@vercel/static-build",
+      "config": {
+        "buildCommand": "curl -fLO https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.22.2-stable.tar.xz && tar xf flutter_linux_3.22.2-stable.tar.xz && export PATH=\"$PATH:$(pwd)/flutter/bin\" && flutter build web",
+        "outputDirectory": "build/web"
+      }
+    }
+  ]
+}
