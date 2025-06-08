@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert'; // สำหรับการจัดการ JSON
 
-// **สำคัญ:** แทนที่ด้วย Web App URL ที่คุณได้จาก Google Apps Script
+// ****สำคัญ:** แทนที่ด้วย Web App URL ที่คุณได้จาก Google Apps Script
 const String googlescripturl = 'https://script.google.com/macros/s/AKfycbykPpXXESPyApgppqMeYnYaaQn1eoZKa4bWo48M2A70C7wqaMXKq9WBtenNaYGCeaaT/exec';
 
 void main() {
