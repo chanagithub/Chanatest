@@ -2,8 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "build/web/**/*",  # <--- เปลี่ยนตรงนี้
-      "use": "@vercel/static"   # <--- เปลี่ยนตรงนี้
+      "src": "build/web/**/*",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
